@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Structure
+
+- **src/**: Contains the main source code for the application.
+  - **components/**: Includes React components used throughout the app.
+    - `FeaturesSectionPage.tsx`: The main page component that includes the features section.
+    - `FeaturesSectionGrid.tsx`: Displays features in a grid layout.
+    - `features.tsx`: Contains the data for the features, including icons and descriptions.
+  - **styles/**: Contains CSS files for styling components.
+    - `App.css`: Global styles for the application.
+    - `FeaturesSectionGrid.css`: Styles specific to the features grid layout.
+    - `FeaturesSectionPage.css`: Styles for the features section page.
+  - **index.tsx**: The entry point of the React application.
+  - **App.tsx**: The main application component that renders the `FeaturesSectionPage`.
+
+- **public/**: Contains static files and the HTML template.
+  - `index.html`: The main HTML file for the application.
+  - `manifest.json`: Metadata for the web app.
+
+- **package.json**: Lists the project dependencies and scripts.
+
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+
 ## Available Scripts
 
 In the project directory, you can run:
